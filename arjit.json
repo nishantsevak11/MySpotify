@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Tum Hi Ho",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/5/51/Tum_Hi_Ho.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "id": "1"
+    },
+    {
+      "title": "Raabta",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4e/Raabta.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "id": "2"
+    },
+    {
+      "title": "Pachtaoge",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b8/Pachtaoge.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "id": "3"
+    },
+    {
+      "title": "Pal",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/0/04/Pal.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "id": "4"
+    },
+    {
+      "title": "Tera Hone Laga Hoon",
+      "artist": "Atif Aslam & Alisha Chinai",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b0/Tera_Hone_Laga_Hoon.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "id": "5"
+    }
+  ]
+  

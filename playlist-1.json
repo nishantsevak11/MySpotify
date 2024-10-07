@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Playlist-1",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/5/51/Tum_Hi_Ho.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "id": "1"
+    },
+    {
+      "title": "Kabira",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/3/32/Kabira.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "id": "2"
+    },
+    {
+      "title": "Channa Mereya",
+      "artist": "Arijit Singh",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b8/Channa_Mereya.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "id": "3"
+    },
+    {
+      "title": "Pehla Nasha",
+      "artist": "Udit Narayan",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/e/ea/Pehla_Nasha.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "id": "4"
+    },
+    {
+      "title": "Bulleya",
+      "artist": "A. R. Rahman",
+      "artwork": "https://upload.wikimedia.org/wikipedia/en/0/06/Bulleya.jpg",
+      "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "id": "5"
+    }
+  ]
+  

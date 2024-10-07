@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="110" class="invert" src="logo.svg" alt=""></div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+
+                </div>
+
+                <div class="songList" id="songList">
+                </div>
+                <audio id="audio-player" controls></audio>
+
+                
+            </div>
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav flex">
+                    <div class="hamburgerContainer">
+
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                    
+                    </div>
+                    <div class="search-container">
+                        <input type="text" placeholder="What do you want to play?" class="search-input">
+                        <button class="search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="row-artist">
+                <div class="head flex space-between">
+                    <h2>Popular Artist</h2>
+                    <button>show all</button>
+                </div>
+                <div class="artists flex">
+                    <div class="profile-card">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="Pritam"
+                            class="profile-image">
+                        <div class="profile-info">
+                            <h2>Pritam</h2>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Pritam"
+                            class="profile-image">
+                        <div class="profile-info">
+                            <h2>arjit</h2>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="https://c.saavncdn.com/artists/Lata_Mangeshkar_004_20230623105323_500x500.jpg" alt="Pritam"
+                            class="profile-image">
+                        <div class="profile-info">
+                            <h2>Lata Mangeshkar</h2>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="spotifyPlaylists">
+        
+                    <div class="head flex space-between">
+                        <h2>Popular Playlists</h2>
+                        <button>show all</button>
+                    </div>
+
+                    <div class="playlists flex">
+                        <div class="playlist-card" id="veer-zara">
+                            <img src="https://ia803402.us.archive.org/30/items/veer-zaara-2004-movie-songs-deewana-hindiganadownload.com/__ia_thumb.jpg" alt="">
+                            <p>Veer Zara Movie Songs</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- <div class="spotify">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EIVFel8wLYqIC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EQntZpEGgfBif?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EQqedj0y9Uwvu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                </div> -->
+                
+            </div>
+
+            
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
