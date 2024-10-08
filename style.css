@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -39,7 +40,7 @@ body {
     overflow-y: auto; /* In case content exceeds the height */
 }
 .right {
-    width: 75vw;
+    width: 100%;
     margin: 1% 0;
     /* position: relative; */
     height: 100vh;
@@ -295,6 +296,14 @@ audio{
     
   }
 
+  .showAll{
+    border: none;
+    background-color: #121212;
+    color: var(--primary-second);
+    font-size: 1rem;
+  }
+
+
 
   @media (max-width: 1200px) {
     body{
@@ -329,7 +338,6 @@ audio{
         width: 100vw;
     }
 
-    
 
     .hamburger {
         display: block;
@@ -337,6 +345,7 @@ audio{
 
     .right {
         margin: 0;
+        position: relative;
     }
 
     .card {
@@ -410,6 +419,13 @@ audio{
         width: 5rem;
         height: 5rem;
     }
+    .audio-section audio{
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        z-index: 22222;
+        width: 70%;
+    }
     
 }
 
@@ -427,4 +443,69 @@ audio{
     .profile-card p{
         font-size: 0.6rem;
     }
+    
+}
+
+
+.right-container {
+    width: 75vw;
+    position: relative;
+}
+
+.library-navigation {
+    background-color: var(--primary-color);
+    width: 75vw; /* Will take the full width of the parent */
+    margin: 1%;
+    height: 100vh;
+    position: absolute;
+    z-index: 33;
+    right: 0;
+    padding: 1%;
+    visibility: hidden;
+}
+
+
+.library-header{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    padding: 1% 5%;
+    gap: 2%;
+}
+.poster{
+    width: 20%;
+}
+.poster img{
+    width: 100%;
+    object-fit: contain;
+}
+.library-details h1{
+    font-size: 2rem;
+}
+
+.library-songs{
+    background-color: var(--third-color);
+    width: 100%;
+    height: 70vh;
+    padding: 10%;
+}
+
+.library-navigation {
+    visibility: hidden;
+}
+
+.library-navigation.visible {
+    visibility: visible;
+}
+
+.song{
+    padding: 1% 5%;
+    cursor: pointer;
+}
+
+.audio-section audio{
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    z-index: 22222;
 }
